@@ -24,7 +24,7 @@ const register = async (req, res) => {
     password: hashPassword,
     avatarURL,
     verificationToken,
-    subscription
+    
   });
 
   const verifyEmail = {
